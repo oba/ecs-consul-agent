@@ -10,7 +10,7 @@ This typically goes hand-in-hand with `registrator`.
 
 ## Usage
 
-  $ docker pull obatech/ec2-consul-agent:latest
+    $ docker pull obatech/ec2-consul-agent:latest
 
 ## Example ECS Task Definition with Terraform (Template)
 
