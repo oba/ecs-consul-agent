@@ -1,0 +1,9 @@
+{
+  "log_level": "INFO",
+  "data_dir": "/opt/consul/data",
+  "ui_dir": "/opt/consul/ui",
+  "client_addr": "0.0.0.0",
+  "bind_addr": "0.0.0.0",
+  "skip_leave_on_interrupt": true,
+  "leave_on_terminate": true
+}
