@@ -6,7 +6,7 @@ Wrapper around `gliderlabs/consul-agent` to make it easier to deploy to ECS host
 * Joins to Consul Server via Hashicorp's Atlas if `ATLAS_INFRASTRUCTURE` AND `ATLAS_TOKEN` passed.
 Otherwise join via `SERVER_IP`.
 
-This typically goes hand-in-hand with `registrator`. Our wrapper for that is [here]().
+This typically goes hand-in-hand with `registrator`.
 
 ## Example ECS Task Definition with Terraform (Template)
 
