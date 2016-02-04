@@ -8,6 +8,10 @@ Otherwise join via `SERVER_IP`.
 
 This typically goes hand-in-hand with `registrator`.
 
+## Usage
+
+  $ docker pull obatech/ec2-consul-agent:latest
+
 ## Example ECS Task Definition with Terraform (Template)
 
 This file is a [Terraform Template](https://www.terraform.io/docs/providers/template/). `${atlas_token}` and `${atlas_infrastructure}` are passed in and the rendered version is used.
