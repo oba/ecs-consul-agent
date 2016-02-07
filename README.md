@@ -1,5 +1,7 @@
 # ecs-consul-agent
 
+[![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://registry.hub.docker.com/u/obatech/ecs-consul-agent/)
+
 Wrapper around `gliderlabs/consul-agent` to make it easier to deploy to ECS hosts.
 
 * Gets `PRIVATE_IP`, `REGION`,  address from EC2 meta-data.
@@ -20,7 +22,7 @@ This file is a [Terraform Template](https://www.terraform.io/docs/providers/temp
 
     {
         "name": "consul",
-        "image": "obatech/ec2-consul-agent:latest",
+        "image": "obatech/ecs-consul-agent:latest",
         "cpu": 20,
         "memory": 80,
         "essential": true,
